@@ -1,0 +1,17 @@
+@charset "utf-8";
+body{
+    background: url("../images/thanks_bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+.bottom{
+    background: url("../images/thanks_cartoon.png") no-repeat;
+    width: 506px;
+    height: 491px;
+    /*绝对定位时自动居中方式*/
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin:0 auto;
+}
