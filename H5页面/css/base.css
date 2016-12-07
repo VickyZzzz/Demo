@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+.clear,
+.clr {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.fr {
+    float:right;
+}
+
+.fl {
+    float:left;
+}
+
+.hide {
+    display:none
+}
+
+.pa{
+    position: absolute;
+}
+
+.pr{
+    position: relative;
+}
+
+.pf{
+    position: fixed;
+}
